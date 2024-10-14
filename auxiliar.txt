@@ -1,0 +1,21 @@
+dotnet aspnet-codegenerator view Create -m Pizzaria.Models.Cliente -dc Pizzaria.Data.PizzariaContext --relativeFolderPath Views/Clientes --useDefaultLayout -n Create
+dotnet aspnet-codegenerator view Edit -m Pizzaria.Models.Cliente -dc Pizzaria.Data.PizzariaContext --relativeFolderPath Views/Clientes --useDefaultLayout -n Edit
+dotnet aspnet-codegenerator view Details -m Pizzaria.Models.Cliente -dc Pizzaria.Data.PizzariaContext --relativeFolderPath Views/Clientes --useDefaultLayout -n Details
+dotnet aspnet-codegenerator view Index -m Pizzaria.Models.Cliente -dc Pizzaria.Data.PizzariaContext --relativeFolderPath Views/Clientes --useDefaultLayout -n Index
+
+dotnet aspnet-codegenerator view Create -m Pizzaria.Models.Venda -dc Pizzaria.Data.PizzariaContext --relativeFolderPath Views/Vendas --useDefaultLayout -n Create
+dotnet aspnet-codegenerator view Edit -m Pizzaria.Models.Venda -dc Pizzaria.Data.PizzariaContext --relativeFolderPath Views/Vendas --useDefaultLayout -n Edit
+dotnet aspnet-codegenerator view Details -m Pizzaria.Models.Venda -dc Pizzaria.Data.PizzariaContext --relativeFolderPath Views/Vendas --useDefaultLayout -n Details
+dotnet aspnet-codegenerator view Index -m Pizzaria.Models.Venda -dc Pizzaria.Data.PizzariaContext --relativeFolderPath Views/Vendas --useDefaultLayout -n Index
+
+
+
+dotnet aspnet-codegenerator view Create -m Pizzaria.Models.Pizzas -dc Pizzaria.Data.PizzariaContext --relativeFolderPath Views/Pizzas --useDefaultLayout -n Create
+dotnet aspnet-codegenerator view Edit -m Pizzaria.Models.Pizzas -dc Pizzaria.Data.PizzariaContext --relativeFolderPath Views/Pizzas --useDefaultLayout -n Edit
+dotnet aspnet-codegenerator view Details -m Pizzaria.Models.Pizzas -dc Pizzaria.Data.PizzariaContext --relativeFolderPath Views/Pizzas --useDefaultLayout -n Details
+dotnet aspnet-codegenerator view Index -m Pizzaria.Models.Pizzas -dc Pizzaria.Data.PizzariaContext --relativeFolderPath Views/Pizzas --useDefaultLayout -n Index
+
+dotnet aspnet-codegenerator view Create -m Pizzaria.Models.PizzasVenda -dc Pizzaria.Data.PizzariaContext --relativeFolderPath Views/PizzasVendas --useDefaultLayout -n Create
+dotnet aspnet-codegenerator view Edit -m Pizzaria.Models.PizzasVenda -dc Pizzaria.Data.PizzariaContext --relativeFolderPath Views/PizzasVendas --useDefaultLayout -n Edit
+dotnet aspnet-codegenerator view Details -m Pizzaria.Models.PizzasVenda -dc Pizzaria.Data.PizzariaContext --relativeFolderPath Views/PizzasVendas --useDefaultLayout -n Details
+dotnet aspnet-codegenerator view Index -m Pizzaria.Models.PizzasVenda -dc Pizzaria.Data.PizzariaContext --relativeFolderPath Views/PizzasVendas --useDefaultLayout -n Index
